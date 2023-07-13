@@ -1,4 +1,4 @@
-module gorm.io/gen/tests
+module github.com/MrChaos1993/gen/tests
 
 go 1.21
 
@@ -22,4 +22,4 @@ require (
 	gorm.io/hints v1.1.2 // indirect
 )
 
-replace gorm.io/gen => ../
+replace github.com/MrChaos1993/gen => ../
