@@ -1,4 +1,4 @@
-module gorm.io/gen
+module github.com/MrChaos1993/gen
 
 go 1.18
 

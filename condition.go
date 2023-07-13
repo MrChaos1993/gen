@@ -3,8 +3,8 @@ package gen
 import (
 	"fmt"
 
+	"github.com/MrChaos1993/gen/field"
 	"gorm.io/datatypes"
-	"gorm.io/gen/field"
 	"gorm.io/gorm/clause"
 )
 
