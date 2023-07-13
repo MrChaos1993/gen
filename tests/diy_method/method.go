@@ -3,7 +3,7 @@ package diy_method
 import (
 	"time"
 
-	"gorm.io/gen"
+	"github.com/MrChaos1993/gen"
 )
 
 type InsertMethod interface {
@@ -337,7 +337,7 @@ type TestSkipImpl interface {
 }
 
 type VariadicTest interface {
-// VariadicMethod
-// SELECT * FROM @@table WHERE id IN (@ids)
-VariadicMethod(ids ...int) ([]gen.T, error)
+	// VariadicMethod
+	// SELECT * FROM @@table WHERE id IN (@ids)
+	VariadicMethod(ids ...int) ([]gen.T, error)
 }

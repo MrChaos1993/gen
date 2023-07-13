@@ -215,10 +215,10 @@ func interfaceCallerDirs() ([]string, error) {
 }
 
 func isGenInternalFrame(file, parserPackageDir, fn string) bool {
-	if strings.HasPrefix(fn, "gorm.io/gen/internal/parser.") {
+	if strings.HasPrefix(fn, "github.com/MrChaos1993/gen/internal/parser.") {
 		return true
 	}
-	if strings.HasPrefix(fn, "gorm.io/gen.(*Generator).") {
+	if strings.HasPrefix(fn, "github.com/MrChaos1993/gen.(*Generator).") {
 		return true
 	}
 	return fn == "" && filepath.ToSlash(filepath.Dir(file)) == parserPackageDir

@@ -1,6 +1,6 @@
 package model
 
-import "gorm.io/gen"
+import "github.com/MrChaos1993/gen"
 
 // UserMethods defines the executable, dialect-neutral DIY SQL fixture.
 type UserMethods interface {

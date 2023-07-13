@@ -5,7 +5,7 @@ import (
 	"errors"
 	"io"
 
-	"gorm.io/gen/internal/diagnostic"
+	"github.com/MrChaos1993/gen/internal/diagnostic"
 )
 
 // WriteDiagnosticJSON writes err as one newline-terminated JSON value.

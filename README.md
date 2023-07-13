@@ -8,7 +8,7 @@ Friendly & Safer GORM powered by Code Generation.
 [![OpenIssue](https://img.shields.io/github/issues/go-gorm/gen)](https://github.com/go-gorm/gen/issues?q=is%3Aopen+is%3Aissue)
 [![ClosedIssue](https://img.shields.io/github/issues-closed/go-gorm/gen)](https://github.com/go-gorm/gen/issues?q=is%3Aissue+is%3Aclosed)
 [![TODOs](https://badgen.net/https/api.tickgit.com/badgen/github.com/go-gorm/gen)](https://www.tickgit.com/browse?repo=github.com/go-gorm/gen)
-[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/gorm.io/gen?tab=doc)
+[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/MrChaos1993/gen?tab=doc)
 
 ## Overview
 
@@ -27,7 +27,7 @@ Friendly & Safer GORM powered by Code Generation.
 Install as a library:
 
 ```bash
-go get gorm.io/gen@latest
+go get github.com/MrChaos1993/gen@latest
 ```
 
 ### 1) Generate code
@@ -39,7 +39,7 @@ package main
 
 import (
 	"gorm.io/driver/mysql"
-	"gorm.io/gen"
+	"github.com/MrChaos1993/gen"
 	"gorm.io/gorm"
 )
 
@@ -139,7 +139,7 @@ Define an interface with SQL comments/templates:
 ```go
 package dal
 
-import "gorm.io/gen"
+import "github.com/MrChaos1993/gen"
 
 type UserMethods interface {
 	// FindByID

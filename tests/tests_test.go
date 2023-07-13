@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/MrChaos1993/gen"
 	"gorm.io/driver/mysql"
-	"gorm.io/gen"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 )

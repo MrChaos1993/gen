@@ -11,7 +11,7 @@ import (
 	"gorm.io/gorm/schema"
 	"gorm.io/gorm/utils/tests"
 
-	"gorm.io/gen/field"
+	"github.com/MrChaos1993/gen/field"
 )
 
 func TestFieldNew(t *testing.T) {

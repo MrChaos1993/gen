@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gorm.io/gen/field"
-	"gorm.io/gen/internal/parser"
+	"github.com/MrChaos1993/gen/field"
+	"github.com/MrChaos1993/gen/internal/parser"
 )
 
 func TestGetInterfacePathImportedPackage(t *testing.T) {
@@ -18,7 +18,7 @@ func TestGetInterfacePathImportedPackage(t *testing.T) {
 	}
 
 	for _, path := range paths {
-		if path.Package != "gorm.io/gen/field" {
+		if path.Package != "github.com/MrChaos1993/gen/field" {
 			t.Fatalf("unexpected package for %s: %q", path.FullName, path.Package)
 		}
 		if !containsBaseFile(path.Files, "expr.go") {

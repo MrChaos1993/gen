@@ -1,8 +1,8 @@
 package runtimefixture
 
 import (
-	"gorm.io/gen"
-	fixture "gorm.io/gen/tests/fixture/model"
+	"github.com/MrChaos1993/gen"
+	fixture "github.com/MrChaos1993/gen/tests/fixture/model"
 )
 
 // Generate writes the checked-in runtime query fixture to outPath.

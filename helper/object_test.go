@@ -3,7 +3,7 @@ package helper
 import (
 	"testing"
 
-	"gorm.io/gen/field"
+	"github.com/MrChaos1993/gen/field"
 )
 
 type testObject struct {

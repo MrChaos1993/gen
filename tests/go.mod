@@ -1,13 +1,13 @@
-module gorm.io/gen/tests
+module github.com/MrChaos1993/gen/tests
 
 go 1.22.0
 
 toolchain go1.24.4
 
 require (
+	github.com/MrChaos1993/gen v0.3.24
 	gorm.io/driver/mysql v1.5.7
 	gorm.io/driver/sqlite v1.6.0
-	gorm.io/gen v0.3.24
 	gorm.io/gorm v1.31.2
 	gorm.io/plugin/dbresolver v1.6.2
 )
@@ -28,4 +28,4 @@ require (
 	gorm.io/hints v1.1.2 // indirect
 )
 
-replace gorm.io/gen => ../
+replace github.com/MrChaos1993/gen => ../

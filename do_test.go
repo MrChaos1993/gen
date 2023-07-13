@@ -15,7 +15,7 @@ import (
 	"gorm.io/gorm/utils/tests"
 	"gorm.io/hints"
 
-	"gorm.io/gen/field"
+	"github.com/MrChaos1993/gen/field"
 )
 
 var (

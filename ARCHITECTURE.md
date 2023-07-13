@@ -7,7 +7,7 @@ explicitly marked as *inference*.
 
 ## 1. Positioning
 
-Gen is GORM's type-safe data-access layer generator. It ships as **one Go module, `gorm.io/gen`,
+Gen is GORM's type-safe data-access layer generator. It ships as **one Go module, `github.com/MrChaos1993/gen`,
 with two faces**: (a) a **compile-time code generator** that reflects over a live database schema
 (or over hand-written Go structs) and emits model structs plus per-table "DAO" query objects, and
 (b) a **runtime query-builder** (`gen.DO` and the `field` expression package) that the generated
@@ -67,7 +67,7 @@ flowchart TD
 
 ## 3. Module map
 
-The repository root is the importable library (`gorm.io/gen`). `examples/`, `tests/`, and
+The repository root is the importable library (`github.com/MrChaos1993/gen`). `examples/`, `tests/`, and
 `tools/gentool/` are **separate Go modules** with their own `go.mod`.
 
 | Path | Responsibility | Key files |
@@ -310,7 +310,7 @@ intentional**; bug fixes should carry a regression test. Nested modules (`tests/
   single-binary distribution, at the cost of painful template editing (no IDE highlighting) and
   no user override except `UnitTestTemplate`. *Inference*: the comment in `model.go` ("cannot
   load template file after packed") records exactly this motivation.
-- **Generation and runtime in one package**: users import `gorm.io/gen` once for both; the
+- **Generation and runtime in one package**: users import `github.com/MrChaos1993/gen` once for both; the
   generator binary and the app both compile `do.go` etc. Trade-off: the runtime carries
   `golang.org/x/tools`-adjacent weight only in the generator path — note `generator.go` imports
   `golang.org/x/tools/go/packages` (used by `fillModelPkgPath`) and `imports`, which land in the

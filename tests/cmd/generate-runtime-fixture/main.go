@@ -4,7 +4,7 @@ import (
 	"flag"
 	"path/filepath"
 
-	"gorm.io/gen/tests/internal/runtimefixture"
+	"github.com/MrChaos1993/gen/tests/internal/runtimefixture"
 )
 
 func main() {

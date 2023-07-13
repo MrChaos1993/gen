@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gorm.io/gen/internal/diagnostic"
-	"gorm.io/gen/internal/parser"
+	"github.com/MrChaos1993/gen/internal/diagnostic"
+	"github.com/MrChaos1993/gen/internal/parser"
 )
 
 func parseInterfaceSet(t *testing.T, src string) *parser.InterfaceSet {
@@ -40,7 +40,7 @@ func testMeta() *QueryStructMeta {
 func TestBuildDIYMethod_ReturnsDiagnosticOnIncompleteSQL(t *testing.T) {
 	src := `package dal
 
-import "gorm.io/gen"
+import "github.com/MrChaos1993/gen"
 
 type UserMethods interface {
 	// FindByID
@@ -73,7 +73,7 @@ type UserMethods interface {
 func TestBuildDIYMethod_DoesNotPanicOnTrailingBackslash(t *testing.T) {
 	src := `package dal
 
-import "gorm.io/gen"
+import "github.com/MrChaos1993/gen"
 
 type UserMethods interface {
 	// FindByName
@@ -95,7 +95,7 @@ type UserMethods interface {
 func TestBuildDIYMethod_ReturnsDiagnosticOnTemplateParseError(t *testing.T) {
 	src := `package dal
 
-import "gorm.io/gen"
+import "github.com/MrChaos1993/gen"
 
 type UserMethods interface {
 	// FindByName

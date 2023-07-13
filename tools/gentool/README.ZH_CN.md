@@ -5,7 +5,7 @@
 ## 安装
 
 ```shell
- go install gorm.io/gen/tools/gentool@latest
+ go -C tools/gentool install .
 ```
 
 ## 使用方式

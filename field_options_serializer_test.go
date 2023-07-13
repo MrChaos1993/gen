@@ -3,8 +3,8 @@ package gen
 import (
 	"testing"
 
-	"gorm.io/gen/field"
-	"gorm.io/gen/internal/model"
+	"github.com/MrChaos1993/gen/field"
+	"github.com/MrChaos1993/gen/internal/model"
 )
 
 func TestSerializerFieldGenTypeFromPublicOptions(t *testing.T) {

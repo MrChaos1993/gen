@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"gorm.io/gen"
-	testhelper "gorm.io/gen/tests/applyinterface_main/helper"
-	"gorm.io/gen/tests/applyinterface_main/model"
+	"github.com/MrChaos1993/gen"
+	testhelper "github.com/MrChaos1993/gen/tests/applyinterface_main/helper"
+	"github.com/MrChaos1993/gen/tests/applyinterface_main/model"
 )
 
 func TestApplyInterfaceMainPackageThroughExternalHelper(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"sync"
 	"testing"
 
-	"gorm.io/gen/internal/generate"
+	"github.com/MrChaos1993/gen/internal/generate"
 )
 
 type ManifestUserFixture struct {

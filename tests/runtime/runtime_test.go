@@ -8,11 +8,11 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/MrChaos1993/gen"
+	"github.com/MrChaos1993/gen/field"
+	fixture "github.com/MrChaos1993/gen/tests/fixture/model"
+	"github.com/MrChaos1993/gen/tests/fixture/query"
 	"gorm.io/driver/sqlite"
-	"gorm.io/gen"
-	"gorm.io/gen/field"
-	fixture "gorm.io/gen/tests/fixture/model"
-	"gorm.io/gen/tests/fixture/query"
 	"gorm.io/gorm"
 )
 

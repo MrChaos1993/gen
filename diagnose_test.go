@@ -6,7 +6,7 @@ import (
 	"errors"
 	"testing"
 
-	"gorm.io/gen/internal/diagnostic"
+	"github.com/MrChaos1993/gen/internal/diagnostic"
 )
 
 func TestWriteDiagnosticJSON(t *testing.T) {

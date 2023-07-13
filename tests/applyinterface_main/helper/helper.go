@@ -1,6 +1,6 @@
 package helper
 
-import "gorm.io/gen"
+import "github.com/MrChaos1993/gen"
 
 type MainMethod interface {
 	FindWrongPackage() error

@@ -8,6 +8,7 @@ import (
 	"os"
 	"strings"
 
+	"github.com/MrChaos1993/gen"
 	"gopkg.in/yaml.v3"
 
 	"gorm.io/driver/clickhouse"
@@ -15,7 +16,6 @@ import (
 	"gorm.io/driver/postgres"
 	"gorm.io/driver/sqlite"
 	"gorm.io/driver/sqlserver"
-	"gorm.io/gen"
 	"gorm.io/gorm"
 )
 

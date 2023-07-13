@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gorm.io/gen/tests/internal/golden"
-	"gorm.io/gen/tests/internal/runtimefixture"
+	"github.com/MrChaos1993/gen/tests/internal/golden"
+	"github.com/MrChaos1993/gen/tests/internal/runtimefixture"
 )
 
 func TestRuntimeFixtureMatchesGenerator(t *testing.T) {

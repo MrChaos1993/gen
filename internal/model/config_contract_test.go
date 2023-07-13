@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gorm.io/gen/field"
+	"github.com/MrChaos1993/gen/field"
 	"gorm.io/gorm"
 	"gorm.io/gorm/migrator"
 )
