@@ -7,7 +7,7 @@ toolchain go1.24.4
 require (
 	gorm.io/driver/mysql v1.5.7
 	gorm.io/driver/sqlite v1.6.0
-	gorm.io/gen v0.3.19
+	gorm.io/gen v0.3.24
 	gorm.io/gorm v1.31.2
 	gorm.io/plugin/dbresolver v1.6.2
 )
@@ -25,7 +25,7 @@ require (
 	golang.org/x/text v0.20.0 // indirect
 	golang.org/x/tools v0.26.0 // indirect
 	gorm.io/datatypes v1.2.4 // indirect
-	gorm.io/hints v1.1.1 // indirect
+	gorm.io/hints v1.1.2 // indirect
 )
 
 replace gorm.io/gen => ../

@@ -7,7 +7,7 @@ require (
 	golang.org/x/tools v0.26.0
 	gorm.io/datatypes v1.2.4
 	gorm.io/gorm v1.31.2
-	gorm.io/hints v1.1.0
+	gorm.io/hints v1.1.2
 	gorm.io/plugin/dbresolver v1.6.2
 )
 
