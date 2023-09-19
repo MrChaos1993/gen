@@ -214,6 +214,8 @@ func (m *Field) GenType() string {
 		return "Bytes"
 	case "serializer":
 		return "Serializer"
+	case "uuid.UUID":
+		return "String"
 	default:
 		return "Field"
 	}
