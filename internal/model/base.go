@@ -222,6 +222,8 @@ func (m *Field) GenType() string {
 		return "Time"
 	case "json.RawMessage", "[]byte":
 		return "Bytes"
+	case "uuid.UUID":
+		return "String"
 	default:
 		return "Field"
 	}
