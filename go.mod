@@ -8,7 +8,7 @@ require (
 	gorm.io/datatypes v1.2.0
 	gorm.io/driver/clickhouse v0.5.1
 	gorm.io/driver/mysql v1.5.2
-	gorm.io/driver/postgres v1.5.3
+	github.com/MrChaos1993/postgres v0.0.0-20231013084102-7dd48bcba06d
 	gorm.io/driver/sqlite v1.5.4
 	gorm.io/driver/sqlserver v1.5.2
 	gorm.io/gorm v1.25.5

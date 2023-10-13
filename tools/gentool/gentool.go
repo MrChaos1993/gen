@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/MrChaos1993/gen"
+	"github.com/MrChaos1993/postgres"
 	"gopkg.in/yaml.v3"
 	"gorm.io/driver/clickhouse"
 	"gorm.io/driver/mysql"
-	"gorm.io/driver/postgres"
 	"gorm.io/driver/sqlite"
 	"gorm.io/driver/sqlserver"
 	"gorm.io/gorm"
