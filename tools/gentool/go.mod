@@ -3,7 +3,7 @@ module github.com/MrChaos1993/gen/tools/gentool
 go 1.25.0
 
 require (
-	github.com/MrChaos1993/gen v0.3.29
+	github.com/MrChaos1993/gen v0.0.0-20261124225416-8852b513f437
 	gopkg.in/yaml.v3 v3.0.1
 	gorm.io/driver/clickhouse v0.6.0
 	gorm.io/driver/mysql v1.5.7
@@ -52,5 +52,3 @@ require (
 	gorm.io/hints v1.1.2 // indirect
 	gorm.io/plugin/dbresolver v1.6.2 // indirect
 )
-
-replace github.com/MrChaos1993/gen => ../..
